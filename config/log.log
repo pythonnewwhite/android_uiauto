@@ -1,0 +1,5 @@
+test
+test
+2020-05-25 17:00:32,430 logs.py--> <module> 10DEBUG test
+2020-05-25 17:01:09,244 logs.py--> <module> 10DEBUG test 
+2020-05-25 17:01:54,528 logs.py--> <module> 10: DEBUG--->test 
