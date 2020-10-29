@@ -1,5 +1,5 @@
 #coding=utf-8
-
+import pytest
 from Base_paskage import screenshot_error
 from Base_paskage import open_browser
 import time
@@ -13,15 +13,22 @@ class login_all:
         self.driver.get_url(url)
         self.driver.find_elemants("name","tj_login",1).click()
 
-
+paramss={1:(1,2,3,4,5),2:{1:2},3:3}
+@pytest.mark.parametrize('login_data',paramss)
+class Test_login:
+    def test_login(self,login_data):
+        print(login_data)
+        # pytest.assume(1)
+        # pytest.assume(0)
+        # pytest.assume(0)
 
 
 if __name__ == '__main__':
-    url = "https://www.baidu.com/"
-    driver=open_browser.selenium_driver("chrome")
-    print(type(driver))
-    driver
-
+    # url = "https://www.baidu.com/"
+    # driver=open_browser.selenium_driver("chrome")
+    # print(type(driver))
+    # driver
+    pytest.main(['-s','testcase2.py'])
 
     '''
     url = "https://www.baidu.com/"

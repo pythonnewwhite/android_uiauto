@@ -1,0 +1,59 @@
+
+loginpage:
+  - title: 摩捷出行登录
+    case:
+     - name: 打开APP
+       mathod: startapp
+       element: id
+       value: com.tima.gac.passengercar
+
+     - name: 关闭广告页
+       mathod: click
+       element: id
+       value: com.tima.gac.passengercar:id/close
+
+     - name: 进入个人中心
+       mathod: click
+       element: id
+       value: com.tima.gac.passengercar:id/iv_left_icon
+
+     - name: 进入登录页面
+       mathod: click
+       element: id
+       value: com.tima.gac.passengercar:id/tv_unlogin
+
+     - name: 输入账号
+       mathod: click
+       element: id
+       value: com.tima.gac.passengercar:id/account_telphone
+
+     - name: 输入密码
+       mathod: click
+       element: id
+       value: com.tima.gac.passengercar:id/et_login_code
+
+     - name: 点击登录按钮
+       mathod: click
+       element: id
+       value: com.tima.gac.passengercar:id/btn_login_submit
+
+    params:
+       - name: 输入正确的账号密码
+         mathod: input
+         phone: 15900842165
+         pw: 666888
+
+       - name: 输入错误的账号
+         mathod: input
+         phone: 159008421655
+         pw: 666888
+
+       - name: 输入错误的密码
+         mathod: input
+         phone: 159008421655
+         pw: 666888
+
+       - name: 输入账号密码
+         mathod: input
+         phone: 159008421655
+         pw: 666888

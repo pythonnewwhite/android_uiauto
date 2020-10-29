@@ -2,7 +2,7 @@
 from selenium import webdriver
 import time
 from PIL import Image
-import pytesseract
+import pytest
 def code_img(url):
     drive=webdriver.Chrome()
     drive.get(url)
@@ -45,7 +45,7 @@ def login(url):
     else:
         drive.find_element_by_class_name("anwser").send_keys(code(url))
 
-url="http://mgtportal-uat.mobje.faw-vw.com/rcs/login.html"
-
+url="https://www.baidu.com/"
+login(url)
 code_img(url)
 print (code(url))

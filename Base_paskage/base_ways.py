@@ -2,7 +2,10 @@
 
 
 
-class base_news:
+class app_base:
+    """APP基础操作方法封装"""
 
-    def login(username, password):
+    def login(self):
         pass
+
+
