@@ -1,0 +1,109 @@
+{
+  "uid" : "ad76018e7b2bf244",
+  "name" : "输入账号密码",
+  "fullName" : "test_pytest.Test_MJapp#test_MojieLogin1",
+  "historyId" : "25796036e759ea436ee7daa175b5b2d0",
+  "time" : {
+    "start" : 1603433628690,
+    "stop" : 1603433641605,
+    "duration" : 12915
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: step() missing 1 required positional argument: 'title'",
+  "statusTrace" : "self = <test_pytest.Test_MJapp object at 0x000001A26CCCFAC8>\nd1 = {'mathod': 'input', 'name': '输入账号密码', 'phone': 159008421655, 'pw': 666888}\n\n    @allure.story(\"密码登录\")\n    def test_MojieLogin1(self,d1):\n        print(\"密码登录\")\n        print(d1)\n        # self.mj.test_codelogin(d1[\"phone\"],d1[\"pw\"],d1[\"name\"])\n>       self.mj.login_for_pw(d1[\"phone\"],d1[\"pw\"],d1[\"name\"])\n\ntest_pytest.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.mojie_login.MobJie_login object at 0x000001A26CB82C88>\nphone = 159008421655, pw = 666888, title = '输入账号密码'\n\n    def login_for_pw(self,phone,pw,title):\n        self.to_login_page(title)\n        self.driver(resourceId=yaml_data1[4][\"value\"]).send_keys(phone)\n        self.driver(resourceId=yaml_data1[5][\"value\"]).send_keys(pw)\n        self.driver.screenshot(\"C:\\soft\\Pycharm\\workspace\\APP_auto\\image_screen\\login1.jpg\")\n        self.driver(resourceId=yaml_data1[6][\"value\"]).click()\n        allure.attach(\"./image_screen/login1.jpg\",\"密码登录异常截图\",attachment_type=allure.attachment_type.JPG)\n        print(\"点击登录按钮\")\n        self.driver.screenshot(\"C:\\soft\\Pycharm\\workspace\\APP_auto\\image_screen\\login2.jpg\")\n        with open(self.driver.screenshot(\"C:\\soft\\Pycharm\\workspace\\APP_auto\\image_screen\\login2.jpg\"),'rb') as file:\n            filebayes = file.read()\n>       with allure.step():\nE       TypeError: step() missing 1 required positional argument: 'title'\n\nPage\\mojie_login.py:54: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: step() missing 1 required positional argument: 'title'",
+    "statusTrace" : "self = <test_pytest.Test_MJapp object at 0x000001A26CCCFAC8>\nd1 = {'mathod': 'input', 'name': '输入账号密码', 'phone': 159008421655, 'pw': 666888}\n\n    @allure.story(\"密码登录\")\n    def test_MojieLogin1(self,d1):\n        print(\"密码登录\")\n        print(d1)\n        # self.mj.test_codelogin(d1[\"phone\"],d1[\"pw\"],d1[\"name\"])\n>       self.mj.login_for_pw(d1[\"phone\"],d1[\"pw\"],d1[\"name\"])\n\ntest_pytest.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.mojie_login.MobJie_login object at 0x000001A26CB82C88>\nphone = 159008421655, pw = 666888, title = '输入账号密码'\n\n    def login_for_pw(self,phone,pw,title):\n        self.to_login_page(title)\n        self.driver(resourceId=yaml_data1[4][\"value\"]).send_keys(phone)\n        self.driver(resourceId=yaml_data1[5][\"value\"]).send_keys(pw)\n        self.driver.screenshot(\"C:\\soft\\Pycharm\\workspace\\APP_auto\\image_screen\\login1.jpg\")\n        self.driver(resourceId=yaml_data1[6][\"value\"]).click()\n        allure.attach(\"./image_screen/login1.jpg\",\"密码登录异常截图\",attachment_type=allure.attachment_type.JPG)\n        print(\"点击登录按钮\")\n        self.driver.screenshot(\"C:\\soft\\Pycharm\\workspace\\APP_auto\\image_screen\\login2.jpg\")\n        with open(self.driver.screenshot(\"C:\\soft\\Pycharm\\workspace\\APP_auto\\image_screen\\login2.jpg\"),'rb') as file:\n            filebayes = file.read()\n>       with allure.step():\nE       TypeError: step() missing 1 required positional argument: 'title'\n\nPage\\mojie_login.py:54: TypeError",
+    "steps" : [ {
+      "name" : "打开APPcom.tima.gac.passengercar",
+      "time" : {
+        "start" : 1603433628691,
+        "stop" : 1603433629005,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "关闭广告页",
+      "time" : {
+        "start" : 1603433629005,
+        "stop" : 1603433631772,
+        "duration" : 2767
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "de4a288b01ab67fa",
+      "name" : "密码登录异常截图",
+      "source" : "de4a288b01ab67fa.jpg",
+      "type" : "image/jpg",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "密码登录"
+  }, {
+    "name" : "feature",
+    "value" : "摩捷出行-登录"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_MJapp"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PFM076R"
+  }, {
+    "name" : "thread",
+    "value" : "19588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d1",
+    "value" : "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad76018e7b2bf244.json",
+  "parameterValues" : [ "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
+}

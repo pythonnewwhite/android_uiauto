@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"broken","test_pytest.Test_MJapp#test_MojieLogin1","10236",""
+"broken","test_pytest.Test_MJapp#test_MojieLogin1","10306",""
+"broken","test_pytest.Test_MJapp#test_MojieLogin1","11716",""
+"broken","test_pytest.Test_MJapp#test_MojieLogin1","12554",""

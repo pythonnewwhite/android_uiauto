@@ -1,0 +1,41 @@
+[ {
+  "uid" : "a7e832ec92d95224",
+  "name" : "输入错误的密码",
+  "time" : {
+    "start" : 1603433845931,
+    "stop" : 1603433856167,
+    "duration" : 10236
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "de6d2c0d0bb35035",
+  "name" : "输入正确的账号密码",
+  "time" : {
+    "start" : 1603433822428,
+    "stop" : 1603433832734,
+    "duration" : 10306
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "45896f33fa635862",
+  "name" : "输入账号密码",
+  "time" : {
+    "start" : 1603433856466,
+    "stop" : 1603433868182,
+    "duration" : 11716
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a2981ad40934e02d",
+  "name" : "输入错误的账号",
+  "time" : {
+    "start" : 1603433833066,
+    "stop" : 1603433845620,
+    "duration" : 12554
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
