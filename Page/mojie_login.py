@@ -16,8 +16,6 @@ class MobJie_login:
             self.driver=u2.connect("1ec5b011")
         else:
             self.driver=u2.connect(sn)
-
-
     def close_app(self):
         self.driver.app_stop("com.tima.gac.passengercar")
 

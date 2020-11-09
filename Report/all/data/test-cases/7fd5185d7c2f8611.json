@@ -1,0 +1,71 @@
+{
+  "uid" : "7fd5185d7c2f8611",
+  "name" : "test01",
+  "fullName" : "test_pytest.Test_MJapp#test01",
+  "historyId" : "ed6428b865f9f64d4d028d922234db81",
+  "time" : {
+    "start" : 1604909801273,
+    "stop" : 1604909801305,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "摩捷出行-登录"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_MJapp"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PFM076R"
+  }, {
+    "name" : "thread",
+    "value" : "11792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6898fa692b81c7d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604909767803,
+        "stop" : 1604909767834,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "a442ab1d6e5325e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604909752115,
+        "stop" : 1604909752186,
+        "duration" : 71
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fd5185d7c2f8611.json",
+  "parameterValues" : [ ]
+}

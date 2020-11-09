@@ -1,12 +1,12 @@
 {
-  "uid" : "65e963da4fc01f5c",
-  "name" : "输入账号密码",
+  "uid" : "e71f3ec97b9441b2",
+  "name" : "输入错误的密码",
   "fullName" : "test_pytest.Test_MJapp#test_MojieLogin1",
-  "historyId" : "25796036e759ea436ee7daa175b5b2d0",
+  "historyId" : "1da62b62e8caab5834c7e8d4d2bbf84d",
   "time" : {
-    "start" : 1603382565961,
-    "stop" : 1603382575600,
-    "duration" : 9639
+    "start" : 1603423581732,
+    "stop" : 1603423591161,
+    "duration" : 9429
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,50 +16,50 @@
     "steps" : [ {
       "name" : "打开APP",
       "time" : {
-        "start" : 1603382565961,
-        "stop" : 1603382566250,
-        "duration" : 289
+        "start" : 1603423581732,
+        "stop" : 1603423582046,
+        "duration" : 314
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "关闭广告页",
       "time" : {
-        "start" : 1603382566251,
-        "stop" : 1603382568879,
-        "duration" : 2628
+        "start" : 1603423582046,
+        "stop" : 1603423584812,
+        "duration" : 2766
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "2d1bf92a70b04ca0",
+      "uid" : "79798ba2cc329369",
       "name" : "密码登录异常截图",
-      "source" : "2d1bf92a70b04ca0.jpg",
+      "source" : "79798ba2cc329369.jpg",
       "type" : "image/jpg",
       "size" : 25
     }, {
-      "uid" : "309e2d67e27920e",
+      "uid" : "b2235235ab265e14",
       "name" : "密码登录异常截图",
-      "source" : "309e2d67e27920e.jpg",
+      "source" : "b2235235ab265e14.jpg",
       "type" : "image/jpg",
       "size" : 25
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 2,
     "hasContent" : true
   },
@@ -81,7 +81,7 @@
     "value" : "DESKTOP-PFM076R"
   }, {
     "name" : "thread",
-    "value" : "6912-MainThread"
+    "value" : "9192-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -97,7 +97,7 @@
   } ],
   "parameters" : [ {
     "name" : "d1",
-    "value" : "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}"
+    "value" : "{'name': '输入错误的密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -106,6 +106,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "65e963da4fc01f5c.json",
-  "parameterValues" : [ "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
+  "source" : "e71f3ec97b9441b2.json",
+  "parameterValues" : [ "{'name': '输入错误的密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
 }

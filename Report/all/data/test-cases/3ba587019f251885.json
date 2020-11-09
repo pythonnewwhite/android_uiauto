@@ -1,5 +1,5 @@
 {
-  "uid" : "a7e832ec92d95224",
+  "uid" : "3ba587019f251885",
   "name" : "输入错误的密码",
   "fullName" : "test_pytest.Test_MJapp#test_MojieLogin1",
   "historyId" : "1da62b62e8caab5834c7e8d4d2bbf84d",
@@ -28,8 +28,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
@@ -43,21 +43,21 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "ddcb622f5ef0c8c4",
+      "uid" : "9fbb4c6775615a8b",
       "name" : "密码登录异常截图",
-      "source" : "ddcb622f5ef0c8c4.jpg",
+      "source" : "9fbb4c6775615a8b.jpg",
       "type" : "image/jpg",
       "size" : 25
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : true,
     "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
     "stepsCount" : 2,
     "hasContent" : true
   },
@@ -103,7 +103,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "661e31e0e85c5d95",
+      "uid" : "21c539aa4a005a3f",
       "status" : "broken",
       "statusDetails" : "TypeError: step() missing 1 required positional argument: 'title'",
       "time" : {
@@ -112,7 +112,7 @@
         "duration" : 13412
       }
     }, {
-      "uid" : "554f5bd9eec5abfb",
+      "uid" : "c399ba0167f5e2f5",
       "status" : "broken",
       "statusDetails" : "TypeError: step() missing 1 required positional argument: 'title'",
       "time" : {
@@ -121,7 +121,7 @@
         "duration" : 14580
       }
     }, {
-      "uid" : "421f2f90501fd404",
+      "uid" : "c0b49342d27624e2",
       "status" : "passed",
       "time" : {
         "start" : 1603424203950,
@@ -129,7 +129,7 @@
         "duration" : 9466
       }
     }, {
-      "uid" : "9a74e5b1a0b6f658",
+      "uid" : "e71f3ec97b9441b2",
       "status" : "passed",
       "time" : {
         "start" : 1603423581732,
@@ -137,7 +137,7 @@
         "duration" : 9429
       }
     }, {
-      "uid" : "15c2e24fc7dd4f47",
+      "uid" : "a3a56c9e36a5fb29",
       "status" : "passed",
       "time" : {
         "start" : 1603382557128,
@@ -145,7 +145,7 @@
         "duration" : 8830
       }
     }, {
-      "uid" : "49ce49089a8b2dd6",
+      "uid" : "c0e48ff27ab88d70",
       "status" : "passed",
       "time" : {
         "start" : 1603382295315,
@@ -160,6 +160,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "a7e832ec92d95224.json",
+  "source" : "3ba587019f251885.json",
   "parameterValues" : [ "{'name': '输入错误的密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
 }

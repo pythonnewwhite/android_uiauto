@@ -1,12 +1,12 @@
 {
-  "uid" : "9fa9d5a89d8a59b1",
-  "name" : "输入正确的账号密码",
+  "uid" : "772867dd8ddc4838",
+  "name" : "输入错误的账号",
   "fullName" : "test_pytest.Test_MJapp#test_MojieLogin1",
-  "historyId" : "4dcf98a27142b67368e05e47e9194703",
+  "historyId" : "02c477153752d4d64418b9f90a853496",
   "time" : {
-    "start" : 1603423562020,
-    "stop" : 1603423571567,
-    "duration" : 9547
+    "start" : 1603382285651,
+    "stop" : 1603382295312,
+    "duration" : 9661
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,58 +16,55 @@
     "steps" : [ {
       "name" : "打开APP",
       "time" : {
-        "start" : 1603423562020,
-        "stop" : 1603423562166,
-        "duration" : 146
+        "start" : 1603382285651,
+        "stop" : 1603382285928,
+        "duration" : 277
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "关闭广告页",
       "time" : {
-        "start" : 1603423562166,
-        "stop" : 1603423564963,
-        "duration" : 2797
+        "start" : 1603382285928,
+        "stop" : 1603382289121,
+        "duration" : 3193
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "619ea620a70305fa",
+      "uid" : "8ee243e75a413da3",
       "name" : "密码登录异常截图",
-      "source" : "619ea620a70305fa.jpg",
+      "source" : "8ee243e75a413da3.jpg",
       "type" : "image/jpg",
       "size" : 25
     }, {
-      "uid" : "44f166b192b2673b",
+      "uid" : "b61c8eb40990fdc7",
       "name" : "密码登录异常截图",
-      "source" : "44f166b192b2673b.jpg",
+      "source" : "b61c8eb40990fdc7.jpg",
       "type" : "image/jpg",
       "size" : 25
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 2,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "密码登录"
-  }, {
     "name" : "feature",
     "value" : "摩捷出行-登录"
   }, {
@@ -81,7 +78,7 @@
     "value" : "DESKTOP-PFM076R"
   }, {
     "name" : "thread",
-    "value" : "9192-MainThread"
+    "value" : "25716-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -97,7 +94,7 @@
   } ],
   "parameters" : [ {
     "name" : "d1",
-    "value" : "{'name': '输入正确的账号密码', 'mathod': 'input', 'phone': 15900842165, 'pw': 666888}"
+    "value" : "{'name': '输入错误的账号', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -106,6 +103,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9fa9d5a89d8a59b1.json",
-  "parameterValues" : [ "{'name': '输入正确的账号密码', 'mathod': 'input', 'phone': 15900842165, 'pw': 666888}" ]
+  "source" : "772867dd8ddc4838.json",
+  "parameterValues" : [ "{'name': '输入错误的账号', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
 }

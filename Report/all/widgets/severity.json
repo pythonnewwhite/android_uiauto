@@ -1,5 +1,5 @@
 [ {
-  "uid" : "de6d2c0d0bb35035",
+  "uid" : "8faf149a44351dd",
   "name" : "输入正确的账号密码",
   "time" : {
     "start" : 1603433822428,
@@ -9,17 +9,7 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "a7e832ec92d95224",
-  "name" : "输入错误的密码",
-  "time" : {
-    "start" : 1603433845931,
-    "stop" : 1603433856167,
-    "duration" : 10236
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a2981ad40934e02d",
+  "uid" : "e036a9405c74df49",
   "name" : "输入错误的账号",
   "time" : {
     "start" : 1603433833066,
@@ -29,7 +19,17 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "45896f33fa635862",
+  "uid" : "3ba587019f251885",
+  "name" : "输入错误的密码",
+  "time" : {
+    "start" : 1603433845931,
+    "stop" : 1603433856167,
+    "duration" : 10236
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3abb67f2bb35289c",
   "name" : "输入账号密码",
   "time" : {
     "start" : 1603433856466,
@@ -37,5 +37,15 @@
     "duration" : 11716
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7fd5185d7c2f8611",
+  "name" : "test01",
+  "time" : {
+    "start" : 1604909801273,
+    "stop" : 1604909801305,
+    "duration" : 32
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

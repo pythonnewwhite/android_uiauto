@@ -7,7 +7,7 @@
       "name" : "Test_MJapp",
       "children" : [ {
         "name" : "输入正确的账号密码",
-        "uid" : "de6d2c0d0bb35035",
+        "uid" : "8faf149a44351dd",
         "parentUid" : "701caba8e29c1e0800ab0879519f9997",
         "status" : "broken",
         "time" : {
@@ -19,7 +19,7 @@
         "parameters" : [ "{'name': '输入正确的账号密码', 'mathod': 'input', 'phone': 15900842165, 'pw': 666888}" ]
       }, {
         "name" : "输入错误的账号",
-        "uid" : "a2981ad40934e02d",
+        "uid" : "e036a9405c74df49",
         "parentUid" : "701caba8e29c1e0800ab0879519f9997",
         "status" : "broken",
         "time" : {
@@ -31,7 +31,7 @@
         "parameters" : [ "{'name': '输入错误的账号', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
       }, {
         "name" : "输入错误的密码",
-        "uid" : "a7e832ec92d95224",
+        "uid" : "3ba587019f251885",
         "parentUid" : "701caba8e29c1e0800ab0879519f9997",
         "status" : "broken",
         "time" : {
@@ -43,7 +43,7 @@
         "parameters" : [ "{'name': '输入错误的密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
       }, {
         "name" : "输入账号密码",
-        "uid" : "45896f33fa635862",
+        "uid" : "3abb67f2bb35289c",
         "parentUid" : "701caba8e29c1e0800ab0879519f9997",
         "status" : "broken",
         "time" : {
@@ -53,6 +53,18 @@
         },
         "flaky" : true,
         "parameters" : [ "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
+      }, {
+        "name" : "test01",
+        "uid" : "7fd5185d7c2f8611",
+        "parentUid" : "701caba8e29c1e0800ab0879519f9997",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604909801273,
+          "stop" : 1604909801305,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "701caba8e29c1e0800ab0879519f9997"
     } ],

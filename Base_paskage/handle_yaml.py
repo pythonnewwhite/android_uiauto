@@ -1,5 +1,8 @@
-import yaml
+
 import os
+os.path.abspath("C:\\soft\\Pycharm\\workspace\\APP_auto\\Base_paskage\\config\\login.yaml")
+import yaml
+
 class HandleYaml:
     def read_yaml(self):
         path = os.getcwd()

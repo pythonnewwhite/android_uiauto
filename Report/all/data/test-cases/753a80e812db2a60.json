@@ -1,5 +1,5 @@
 {
-  "uid" : "21e97c4bca3b15b2",
+  "uid" : "753a80e812db2a60",
   "name" : "输入账号密码",
   "fullName" : "test_pytest.Test_MJapp#test_MojieLogin1",
   "historyId" : "25796036e759ea436ee7daa175b5b2d0",
@@ -28,8 +28,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
@@ -43,21 +43,21 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "c37f646789dfe98d",
+      "uid" : "7ba847712349a93d",
       "name" : "密码登录异常截图",
-      "source" : "c37f646789dfe98d.jpg",
+      "source" : "7ba847712349a93d.jpg",
       "type" : "image/jpg",
       "size" : 25
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : true,
     "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
     "stepsCount" : 2,
     "hasContent" : true
   },
@@ -104,6 +104,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "21e97c4bca3b15b2.json",
+  "source" : "753a80e812db2a60.json",
   "parameterValues" : [ "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
 }

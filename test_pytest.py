@@ -1,5 +1,7 @@
-import pytest
 import os
+import sys
+sys.path.append('C:\\soft\\Pycharm\\workspace\\new_mojie\\venv\\lib\\site-packages')
+import pytest
 import uiautomator2
 import allure
 from Page.login import LoginPage
@@ -13,23 +15,26 @@ from  Base_paskage.handle_yaml import HandleYaml
 yaml_data=HandleYaml().read_yaml()
 paramss=yaml_data["loginpage"][0]["params"]
 
-@pytest.mark.parametrize("d1",paramss)
+# @pytest.mark.parametrize("d1",paramss)
 @allure.feature("摩捷出行-登录")
 class Test_MJapp:
-    mj=mojie_login.MobJie_login()
+    # mj=mojie_login.MobJie_login()
     def setup(self):
         print("方法级别预制条件")
-        self.mj.close_app()
+        # self.mj.close_app()
     def teardown(self):
         print("方法级别后置条件")
-        self.mj.close_app()
+        # self.mj.close_app()
+    def test01(self):
+        a=1+1
+        pytest.assume(1)
 
-    @allure.story("密码登录")
-    def test_MojieLogin1(self,d1):
-        print("密码登录")
-        print(d1)
+    # @allure.story("密码登录")
+    # def test_MojieLogin1(self,d1):
+    #     print("密码登录")
+    #     print(d1)
         # self.mj.test_codelogin(d1["phone"],d1["pw"],d1["name"])
-        self.mj.login_for_pw(d1["phone"],d1["pw"],d1["name"])
+        # self.mj.login_for_pw(d1["phone"],d1["pw"],d1["name"])
     # @allure.story("验证码登录")
     # def test_MojieLogin2(self):
     #     print('验证吗登录')

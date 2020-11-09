@@ -4,34 +4,26 @@
   "children" : [ {
     "name" : "DESKTOP-PFM076R",
     "children" : [ {
+      "name" : "11792-MainThread",
+      "children" : [ {
+        "name" : "test01",
+        "uid" : "7fd5185d7c2f8611",
+        "parentUid" : "1197f49bbda51ffc48b80ee7d6340463",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604909801273,
+          "stop" : 1604909801305,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1197f49bbda51ffc48b80ee7d6340463"
+    }, {
       "name" : "24540-MainThread",
       "children" : [ {
-        "name" : "输入错误的密码",
-        "uid" : "a7e832ec92d95224",
-        "parentUid" : "7b9ef0a09938f594cb5051184972ab2d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1603433845931,
-          "stop" : 1603433856167,
-          "duration" : 10236
-        },
-        "flaky" : true,
-        "parameters" : [ "{'name': '输入错误的密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
-      }, {
-        "name" : "输入正确的账号密码",
-        "uid" : "de6d2c0d0bb35035",
-        "parentUid" : "7b9ef0a09938f594cb5051184972ab2d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1603433822428,
-          "stop" : 1603433832734,
-          "duration" : 10306
-        },
-        "flaky" : true,
-        "parameters" : [ "{'name': '输入正确的账号密码', 'mathod': 'input', 'phone': 15900842165, 'pw': 666888}" ]
-      }, {
         "name" : "输入账号密码",
-        "uid" : "45896f33fa635862",
+        "uid" : "3abb67f2bb35289c",
         "parentUid" : "7b9ef0a09938f594cb5051184972ab2d",
         "status" : "broken",
         "time" : {
@@ -43,7 +35,7 @@
         "parameters" : [ "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
       }, {
         "name" : "输入错误的账号",
-        "uid" : "a2981ad40934e02d",
+        "uid" : "e036a9405c74df49",
         "parentUid" : "7b9ef0a09938f594cb5051184972ab2d",
         "status" : "broken",
         "time" : {
@@ -53,6 +45,30 @@
         },
         "flaky" : true,
         "parameters" : [ "{'name': '输入错误的账号', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
+      }, {
+        "name" : "输入错误的密码",
+        "uid" : "3ba587019f251885",
+        "parentUid" : "7b9ef0a09938f594cb5051184972ab2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603433845931,
+          "stop" : 1603433856167,
+          "duration" : 10236
+        },
+        "flaky" : true,
+        "parameters" : [ "{'name': '输入错误的密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
+      }, {
+        "name" : "输入正确的账号密码",
+        "uid" : "8faf149a44351dd",
+        "parentUid" : "7b9ef0a09938f594cb5051184972ab2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603433822428,
+          "stop" : 1603433832734,
+          "duration" : 10306
+        },
+        "flaky" : true,
+        "parameters" : [ "{'name': '输入正确的账号密码', 'mathod': 'input', 'phone': 15900842165, 'pw': 666888}" ]
       } ],
       "uid" : "7b9ef0a09938f594cb5051184972ab2d"
     } ],

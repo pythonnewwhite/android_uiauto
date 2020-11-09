@@ -1,12 +1,12 @@
 {
-  "uid" : "554211315181b058",
-  "name" : "输入错误的账号",
+  "uid" : "fcb1fa4d5de53f5c",
+  "name" : "输入账号密码",
   "fullName" : "test_pytest.Test_MJapp#test_MojieLogin1",
-  "historyId" : "02c477153752d4d64418b9f90a853496",
+  "historyId" : "25796036e759ea436ee7daa175b5b2d0",
   "time" : {
-    "start" : 1603382548465,
-    "stop" : 1603382557123,
-    "duration" : 8658
+    "start" : 1603424213420,
+    "stop" : 1603424223303,
+    "duration" : 9883
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,62 +14,62 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "打开APP",
+      "name" : "打开APPcom.tima.gac.passengercar",
       "time" : {
-        "start" : 1603382548465,
-        "stop" : 1603382548772,
-        "duration" : 307
+        "start" : 1603424213420,
+        "stop" : 1603424213701,
+        "duration" : 281
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "关闭广告页",
       "time" : {
-        "start" : 1603382548772,
-        "stop" : 1603382551370,
-        "duration" : 2598
+        "start" : 1603424213701,
+        "stop" : 1603424216951,
+        "duration" : 3250
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "7df6e6a85752b52f",
+      "uid" : "de9a9c39dd60b488",
       "name" : "密码登录异常截图",
-      "source" : "7df6e6a85752b52f.jpg",
+      "source" : "de9a9c39dd60b488.jpg",
       "type" : "image/jpg",
       "size" : 25
     }, {
-      "uid" : "ecd6ae7bb30b3993",
+      "uid" : "2ef8ddfa37e0d968",
       "name" : "密码登录异常截图",
-      "source" : "ecd6ae7bb30b3993.jpg",
+      "source" : "2ef8ddfa37e0d968.jpg",
       "type" : "image/jpg",
       "size" : 25
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 2,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "密码登录"
-  }, {
     "name" : "feature",
     "value" : "摩捷出行-登录"
+  }, {
+    "name" : "story",
+    "value" : "密码登录"
   }, {
     "name" : "suite",
     "value" : "test_pytest"
@@ -81,7 +81,7 @@
     "value" : "DESKTOP-PFM076R"
   }, {
     "name" : "thread",
-    "value" : "6912-MainThread"
+    "value" : "16220-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -97,7 +97,7 @@
   } ],
   "parameters" : [ {
     "name" : "d1",
-    "value" : "{'name': '输入错误的账号', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}"
+    "value" : "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -106,6 +106,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "554211315181b058.json",
-  "parameterValues" : [ "{'name': '输入错误的账号', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
+  "source" : "fcb1fa4d5de53f5c.json",
+  "parameterValues" : [ "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
 }
