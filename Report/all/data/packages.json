@@ -4,62 +4,14 @@
   "children" : [ {
     "name" : "test_pytest",
     "children" : [ {
-      "name" : "输入正确的账号密码",
-      "uid" : "8faf149a44351dd",
-      "parentUid" : "dfd52efb07a0a97e99bb616307c69cd6",
-      "status" : "broken",
-      "time" : {
-        "start" : 1603433822428,
-        "stop" : 1603433832734,
-        "duration" : 10306
-      },
-      "flaky" : true,
-      "parameters" : [ "{'name': '输入正确的账号密码', 'mathod': 'input', 'phone': 15900842165, 'pw': 666888}" ]
-    }, {
-      "name" : "输入错误的账号",
-      "uid" : "e036a9405c74df49",
-      "parentUid" : "dfd52efb07a0a97e99bb616307c69cd6",
-      "status" : "broken",
-      "time" : {
-        "start" : 1603433833066,
-        "stop" : 1603433845620,
-        "duration" : 12554
-      },
-      "flaky" : true,
-      "parameters" : [ "{'name': '输入错误的账号', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
-    }, {
-      "name" : "输入错误的密码",
-      "uid" : "3ba587019f251885",
-      "parentUid" : "dfd52efb07a0a97e99bb616307c69cd6",
-      "status" : "broken",
-      "time" : {
-        "start" : 1603433845931,
-        "stop" : 1603433856167,
-        "duration" : 10236
-      },
-      "flaky" : true,
-      "parameters" : [ "{'name': '输入错误的密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
-    }, {
-      "name" : "输入账号密码",
-      "uid" : "3abb67f2bb35289c",
-      "parentUid" : "dfd52efb07a0a97e99bb616307c69cd6",
-      "status" : "broken",
-      "time" : {
-        "start" : 1603433856466,
-        "stop" : 1603433868182,
-        "duration" : 11716
-      },
-      "flaky" : true,
-      "parameters" : [ "{'name': '输入账号密码', 'mathod': 'input', 'phone': 159008421655, 'pw': 666888}" ]
-    }, {
       "name" : "test01",
-      "uid" : "7fd5185d7c2f8611",
+      "uid" : "ef87d7e0b800b93a",
       "parentUid" : "dfd52efb07a0a97e99bb616307c69cd6",
       "status" : "passed",
       "time" : {
-        "start" : 1604909801273,
-        "stop" : 1604909801305,
-        "duration" : 32
+        "start" : 1604911149676,
+        "stop" : 1604911149703,
+        "duration" : 27
       },
       "flaky" : false,
       "parameters" : [ ]

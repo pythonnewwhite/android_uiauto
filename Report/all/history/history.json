@@ -1,24 +1,4 @@
 {
-  "02c477153752d4d64418b9f90a853496" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e036a9405c74df49",
-      "status" : "broken",
-      "statusDetails" : "TypeError: step() missing 1 required positional argument: 'title'",
-      "time" : {
-        "start" : 1603433833066,
-        "stop" : 1603433845620,
-        "duration" : 12554
-      }
-    } ]
-  },
   "ed6428b865f9f64d4d028d922234db81" : {
     "statistic" : {
       "failed" : 0,
@@ -29,72 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7fd5185d7c2f8611",
+      "uid" : "ef87d7e0b800b93a",
       "status" : "passed",
       "time" : {
-        "start" : 1604909801273,
-        "stop" : 1604909801305,
-        "duration" : 32
-      }
-    } ]
-  },
-  "4dcf98a27142b67368e05e47e9194703" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8faf149a44351dd",
-      "status" : "broken",
-      "statusDetails" : "TypeError: step() missing 1 required positional argument: 'title'",
-      "time" : {
-        "start" : 1603433822428,
-        "stop" : 1603433832734,
-        "duration" : 10306
-      }
-    } ]
-  },
-  "1da62b62e8caab5834c7e8d4d2bbf84d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3ba587019f251885",
-      "status" : "broken",
-      "statusDetails" : "TypeError: step() missing 1 required positional argument: 'title'",
-      "time" : {
-        "start" : 1603433845931,
-        "stop" : 1603433856167,
-        "duration" : 10236
-      }
-    } ]
-  },
-  "25796036e759ea436ee7daa175b5b2d0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3abb67f2bb35289c",
-      "status" : "broken",
-      "statusDetails" : "TypeError: step() missing 1 required positional argument: 'title'",
-      "time" : {
-        "start" : 1603433856466,
-        "stop" : 1603433868182,
-        "duration" : 11716
+        "start" : 1604911149676,
+        "stop" : 1604911149703,
+        "duration" : 27
       }
     } ]
   }

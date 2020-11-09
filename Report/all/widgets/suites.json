@@ -5,11 +5,11 @@
     "name" : "test_pytest",
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 5
+      "total" : 1
     }
   } ]
 }

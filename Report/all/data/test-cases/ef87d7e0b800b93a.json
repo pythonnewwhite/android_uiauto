@@ -1,12 +1,12 @@
 {
-  "uid" : "6898fa692b81c7d1",
+  "uid" : "ef87d7e0b800b93a",
   "name" : "test01",
   "fullName" : "test_pytest.Test_MJapp#test01",
   "historyId" : "ed6428b865f9f64d4d028d922234db81",
   "time" : {
-    "start" : 1604909767803,
-    "stop" : 1604909767834,
-    "duration" : 31
+    "start" : 1604911149676,
+    "stop" : 1604911149703,
+    "duration" : 27
   },
   "status" : "passed",
   "flaky" : false,
@@ -26,7 +26,7 @@
     "value" : "DESKTOP-PFM076R"
   }, {
     "name" : "thread",
-    "value" : "36876-MainThread"
+    "value" : "19196-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -42,12 +42,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6898fa692b81c7d1.json",
+  "source" : "ef87d7e0b800b93a.json",
   "parameterValues" : [ ]
 }

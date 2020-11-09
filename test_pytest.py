@@ -1,20 +1,14 @@
 import os
 import sys
-sys.path.append('C:\\soft\\Pycharm\\workspace\\new_mojie\\venv\\lib\\site-packages')
+sys.path.append('C:\soft\Pycharm\workspace\\new_mojie\\venv\\Lib\\site-packages')
 import pytest
-import uiautomator2
 import allure
+import uiautomator2
 from Page.login import LoginPage
-
 from Page import mojie_login
-#1、打开APP 实现账号密码登录、验证码登录
-#2、错误账号登录，错误密码登录，截图
-#3、每条用例执行后截图；
-
 from  Base_paskage.handle_yaml import HandleYaml
 yaml_data=HandleYaml().read_yaml()
 paramss=yaml_data["loginpage"][0]["params"]
-
 # @pytest.mark.parametrize("d1",paramss)
 @allure.feature("摩捷出行-登录")
 class Test_MJapp:
